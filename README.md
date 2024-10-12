@@ -1,6 +1,10 @@
 # Matlab
  基于Matlab的算法
 
+ colorball.m：双色球，止损法。
+
+ 参考链接；http://www.algmain.com/index.php/algorithm-article/gambling/
+ 
 # VarianceSplitter
  基于投影方差的点群划分算法，连续多重划分算法。
 

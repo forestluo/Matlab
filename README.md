@@ -12,6 +12,10 @@
 
  MinVarianceMainsplitterShow：对点群进行投影方差连续分割。分割结果呈块状，比较理想。
 
+<div align=center>
+ <img src="https://github.com/forestluo/Matlab/blob/main/VarianceSplitter/minsample.png"/>
+</div>
+
  MinVarianceSplitShow：对点群进行一次投影方差分割。
 
  参考链接：

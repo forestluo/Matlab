@@ -11,7 +11,9 @@
  MaxVarianceSplitShow：对点群进行一次投影方差分割。
 
  参考链接：
+ 
   （1）https://zhuanlan.zhihu.com/p/355200359
+  
   （2）http://www.algmain.com/index.php/algorithm-article/projective-variance-split/
 
 <div align=center>

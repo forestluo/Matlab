@@ -10,7 +10,7 @@
 
  MaxVarianceSplitShow：对点群进行一次投影方差分割。
 
- MinVarianceMainsplitterShow：对点群进行投影方差连续分割。分割结果比较理想。
+ MinVarianceMainsplitterShow：对点群进行投影方差连续分割。分割结果呈块状，比较理想。
 
  MinVarianceSplitShow：对点群进行一次投影方差分割。
 

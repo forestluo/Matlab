@@ -32,6 +32,9 @@
  <img src="https://github.com/forestluo/Matlab/blob/main/VarianceSplitter/sample.png"/>
 </div>
 
+# density_v2
+ 基于极坐标积分的图像“识别”算法。
+
 ---
 
 给作者捐赠：

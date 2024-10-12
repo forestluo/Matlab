@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS "corpus_POS_list"  (   [code] VARCHAR2(8) NOT NULL UNIQUE,    [name] VARCHAR2(255) NOT NULL,    [remark] TEXT,    [created] TIMESTAMP NOT NULL DEFAULT (DATETIME ('NOW')),    [updated] TIMESTAMP,    PRIMARY KEY([code])  );
+CREATE TABLE IF NOT EXISTS "corpus_character_list"  (   [character] CHAR(1) NOT NULL UNIQUE,    [total] INTEGER NOT NULL DEFAULT 0,    [counter] INTEGER NOT NULL DEFAULT 0,    [flag] INTEGER NOT NULL DEFAULT 0,    [created] TIMESTAMP NOT NULL DEFAULT (DATETIME ('NOW')),    [updated] TIMESTAMP,    PRIMARY KEY([character])  );
+CREATE TABLE IF NOT EXISTS "corpus_word_list"  (   [word] VARCHAR2(16) NOT NULL UNIQUE,    [length] INTEGER NOT NULL DEFAULT 0,    [POS_code] VARCHAR2(4) NOT NULL,    [POS_name] VARCHAR2(8) NOT NULL,    [total] INTEGER NOT NULL DEFAULT 0,    [counter] INTEGER NOT NULL DEFAULT 0,    [flag] INTEGER NOT NULL DEFAULT 0,    [created] TIMESTAMP NOT NULL DEFAULT (DATETIME ('NOW')),    [updated] TIMESTAMP,    PRIMARY KEY([word])  );
+CREATE TABLE [corpus_word_POS_list](
+  [word] VARCHAR2(16) NOT NULL,
+  [length] INTEGER NOT NULL DEFAULT 0,
+  [POS_code] VARCHAR2(4) NOT NULL,
+  [POS_name] VARCHAR2(8) NOT NULL,
+  [total] INTEGER NOT NULL DEFAULT 0,
+  [counter] INTEGER NOT NULL DEFAULT 0,
+  [flag] INTEGER NOT NULL DEFAULT 0,
+  [created] TIMESTAMP NOT NULL DEFAULT (DATETIME ('NOW')),
+  [updated] TIMESTAMP);
+CREATE INDEX [word_index] ON [corpus_word_POS_list]([word]);
+CREATE INDEX [POS_code_index] ON [corpus_word_POS_list]([POS_code]);

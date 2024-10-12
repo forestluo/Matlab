@@ -1,0 +1,45 @@
+url = 'http://www.mathworks.com/matlabcentral/fileexchange/';
+options = weboptions('RequestMethod','post');
+data = webread(url,'term','simulink','duration',7,options);
+
+
+Request URL:http://www.aihanyu.org/cncorpus/CnCindex.aspx
+Request Method:POST
+Status Code:200 OK
+Remote Address:101.200.172.215:80
+Referrer Policy:no-referrer-when-downgrade
+Response Headers
+view source
+Cache-Control:private
+Content-Length:446575
+Content-Type:text/html; charset=utf-8
+Date:Sun, 04 Mar 2018 11:58:21 GMT
+Server:Microsoft-IIS/7.5
+X-AspNet-Version:4.0.30319
+X-Powered-By:ASP.NET
+Request Headers
+view source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:652
+Content-Type:application/x-www-form-urlencoded
+Cookie:ASP.NET_SessionId=dhdxerirnnlamohim3ggdoqa; __utma=199816254.867852995.1520164093.1520164093.1520164093.1; __utmb=199816254.2.10.1520164093; __utmc=199816254; __utmz=199816254.1520164093.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+Host:www.aihanyu.org
+Origin:http://www.aihanyu.org
+Referer:http://www.aihanyu.org/cncorpus/CnCindex.aspx
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Form Data
+view source
+view URL encoded
+__VIEWSTATE:/wEPDwUKLTQzNTczMjk0OGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgoFC1JCaW5kZXh3b3JkBQpSQmxpa2Vtb2RlBQpSQmxpa2Vtb2RlBQ5SQmZ1bGx0ZXh0bW9kZQUOUkJmdWxsdGV4dG1vZGUFDFJhZGlvQnV0dG9uMwUMUmFkaW9CdXR0b240BQxSYWRpb0J1dHRvbjQFDkNoZWNrQm94Q2h1Y2h1BRBDaGVja0JveEtXSUNtb2RlYSer6U0RyFVBIcN2bmX/D4FDNMWRVttFoesSO0pOx88=
+__EVENTVALIDATION:/wEWDgKch/qXAgLYiuv/CwLzuO7zDQL3uO7zDQLV+YmkCgLZ+YmkCgKM54rGBgK8u9naBwKJlM7DBwKAg8rcDgKWzvT1CAKWzuCuBwK2q5qHDgK/xfDTAQEyjTeJBLtJFqQmiRc0jQxCrqvVr5PpU9orK8na9Ahd
+TextBoxCCkeywords:ÎÒÃÇ
+DropDownListPsize:500
+Button1:¼ì  Ë÷
+1:RBindexword
+2:RadioButton3
+CheckBoxChuchu:on

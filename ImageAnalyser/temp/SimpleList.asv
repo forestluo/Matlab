@@ -1,0 +1,63 @@
+classdef SimpleList
+    properties (Access = private)
+        %数据
+        data;
+        %下一个
+        next;
+        %上一个
+        previous;
+    end
+    
+    methods
+        %构造函数
+        function object = SimpleList()
+            %设置对象
+            object.next = object;
+            object.previous = object;
+        end
+        
+        %删除链表
+        function object = RemoteAll(object)
+            
+        end
+        
+        %准备遍历
+        function object = Loop(object)
+            
+        end
+        %在头部加入数据
+        function object = AddHead(object,data)
+            %创建新链表
+            newObject = ...
+                SimpleList();
+            %设置数据
+            newObject.data = data;
+            
+            %获得下一个
+            nextObject = object.next;
+            %设置数据指针
+            object.next = newObject;
+            newObject.previous = object;
+            %设置数据指针
+            newObject.next = nextObject;             
+            nextObject.previous = newObject;
+        end        
+        %在尾部加入数据
+        function object = AddTail(object,data)
+            %创建新链表
+            newObject = ...
+                SimpleList();
+            %设置数据
+            newObject.value = data;
+            
+            %获得下一个
+            previousObject = object.previous;
+            %设置数据指针
+            newObject.next = object;
+            object.previous = newObject;
+            %设置数据指针
+            previousObject.next = newObject;
+            newObject.previous = previousObject;             
+        end
+    end
+end
